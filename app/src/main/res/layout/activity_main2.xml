@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:fillViewport="true"
+    android:background="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity2">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="391dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal"
+            android:text="LISTA DE EQUIPES"
+            android:textAlignment="center"
+            android:textColor="@color/vermelho"
+            android:textSize="46dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8"
+            app:srcCompat="@drawable/redbull" />
+
+        <Button
+            android:id="@+id/pilotos_redbull"
+            android:layout_width="236dp"
+            android:layout_height="68dp"
+            android:backgroundTint="@color/azul"
+            android:text="Ver Pilotos"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView5"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="@+id/imageView5"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="333dp"
+            android:layout_height="385dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9"
+            app:srcCompat="@drawable/mercedes_" />
+
+        <Button
+            android:id="@+id/pilotos_mercedes"
+            android:layout_width="236dp"
+            android:layout_height="68dp"
+            android:backgroundTint="@color/azul"
+            android:text="Ver Pilotos"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView6"
+            app:layout_constraintStart_toStartOf="@+id/imageView6"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="343dp"
+            android:layout_height="355dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10"
+            app:srcCompat="@drawable/mclaren_mcl35_1_removebg_preview" />
+
+        <Button
+            android:id="@+id/pilotos_mclaren"
+            android:layout_width="236dp"
+            android:layout_height="68dp"
+            android:backgroundTint="@color/azul"
+            android:text="Ver Pilotos"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imageView8"
+            app:layout_constraintStart_toStartOf="@+id/imageView8"
+            app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="179dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="4dp"
+            android:text="RED BULL"
+            android:textColor="@color/azul"
+            android:textSize="40dp"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="211dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="8dp"
+            android:text="MERCEDES"
+            android:textColor="@color/azul"
+            android:textSize="40dp"
+            app:layout_constraintEnd_toEndOf="@+id/pilotos_redbull"
+            app:layout_constraintHorizontal_bias="0.48"
+            app:layout_constraintStart_toStartOf="@+id/pilotos_redbull"
+            app:layout_constraintTop_toBottomOf="@+id/pilotos_redbull" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="189dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:text="MCLAREN"
+            android:textColor="@color/azul"
+            android:textSize="40dp"
+            app:layout_constraintEnd_toEndOf="@+id/pilotos_mercedes"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/pilotos_mercedes"
+            app:layout_constraintTop_toBottomOf="@+id/pilotos_mercedes" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

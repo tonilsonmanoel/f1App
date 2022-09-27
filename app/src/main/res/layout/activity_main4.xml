@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:background="@color/white">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FORMULA 1"
+                android:textColor="@color/azul"
+                android:textAlignment="center"
+                android:textSize="45dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="112dp"
+                android:gravity="center_horizontal"
+                android:text="Equipes F1"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="37dp" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="278dp"
+                android:layout_height="162dp"
+                android:layout_marginLeft="65dp"
+                app:srcCompat="@drawable/artigo_f1_novo_2" />
+
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@color/azul"
+                android:backgroundTint="@color/verde"
+                android:text="ACESSOR"
+                android:textColor="@color/azul"
+                android:textSize="28dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="112dp"
+                android:gravity="center_horizontal"
+                android:text="Equipes F2"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="37dp"/>
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="278dp"
+                android:layout_height="162dp"
+                android:layout_marginLeft="65dp"
+                app:srcCompat="@drawable/f2logo" />
+
+
+
+
+        </LinearLayout>
+</ScrollView>

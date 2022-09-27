@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="52dp"
+    android:fillViewport="true"
+    android:background="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".daniel_ricciardo">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="371dp"
+            android:layout_height="64dp"
+            android:text="DANIEL RICCIARDO"
+            android:textColor="@color/black"
+            android:textSize="42dp"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:gravity="center_horizontal" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="308dp"
+            android:layout_height="312dp"
+            app:layout_constraintEnd_toEndOf="@+id/textView11"
+            app:layout_constraintStart_toStartOf="@+id/textView11"
+            app:layout_constraintTop_toBottomOf="@+id/textView11"
+            app:srcCompat="@drawable/daniel" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="369dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="4dp"
+            android:text="O australiano apareceu na Fórmula 1 como uma promessa de ser um futuro campeão do mundo, principalmente quando migrou para a Red Bull."
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView13"
+            app:layout_constraintHorizontal_bias="0.573"
+            app:layout_constraintStart_toStartOf="@+id/imageView13"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="232dp"
+            android:layout_height="40dp"
+            android:text="INFORMAÇÕES"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="32dp"
+            app:layout_constraintEnd_toEndOf="@+id/textView14"
+            app:layout_constraintStart_toStartOf="@+id/textView14"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="377dp"
+            android:layout_height="240dp"
+            android:text="Equipe: McLaren
+\nNascimento: 1 julho 1989, em Perth (Austrália)
+\nEstreia na F1: GP da Inglaterra de 2011
+\nPrimeira vitória: GP do Canadá de 2014
+\nPrimeiro pódio: GP da Espanha de 2014
+\nEquipes: HRT, Toro Rosso, Red Bull, Renault e McLaren"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="23dp"
+            app:layout_constraintEnd_toEndOf="@+id/textView15"
+            app:layout_constraintStart_toStartOf="@+id/textView15"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="232dp"
+            android:layout_height="40dp"
+
+            android:text="FOTOS:"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="32dp"
+            app:layout_constraintEnd_toEndOf="@+id/textView16"
+            app:layout_constraintStart_toStartOf="@+id/textView16"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="347dp"
+            android:layout_height="200dp"
+            app:layout_constraintEnd_toEndOf="@+id/textView17"
+            app:layout_constraintStart_toStartOf="@+id/textView17"
+            app:layout_constraintTop_toBottomOf="@+id/textView17"
+            app:srcCompat="@drawable/daniell1" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="351dp"
+            android:layout_height="224dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView17"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/imageView17"
+            app:layout_constraintTop_toBottomOf="@+id/imageView17"
+            app:srcCompat="@drawable/daniell2" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

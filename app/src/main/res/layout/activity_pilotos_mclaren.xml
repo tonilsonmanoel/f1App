@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="146dp"
+    android:fillViewport="true"
+    android:background="@color/white">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".pilotos_mclaren">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="311dp"
+            android:layout_height="126dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/mclaren_racing_logo_svg" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="371dp"
+            android:layout_height="64dp"
+            android:text="LANDO NORRIS"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="43dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView9"
+            app:layout_constraintStart_toStartOf="@+id/imageView9"
+            app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="338dp"
+            android:layout_height="346dp"
+
+            app:layout_constraintEnd_toEndOf="@+id/textView12"
+            app:layout_constraintStart_toStartOf="@+id/textView12"
+            app:layout_constraintTop_toBottomOf="@+id/textView12"
+            app:srcCompat="@drawable/norris" />
+
+        <Button
+            android:id="@+id/lando_norris"
+            android:layout_width="173dp"
+            android:layout_height="65dp"
+            android:text="Ver Informações"
+            android:textSize="17dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView10"
+            app:layout_constraintStart_toStartOf="@+id/imageView10"
+            app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="371dp"
+            android:layout_height="54dp"
+            android:text="DANIEL RICCIARDO"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="41dp"
+            app:layout_constraintEnd_toEndOf="@+id/lando_norris"
+            app:layout_constraintStart_toStartOf="@+id/lando_norris"
+            app:layout_constraintTop_toBottomOf="@+id/lando_norris" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="338dp"
+            android:layout_height="346dp"
+
+            app:layout_constraintEnd_toEndOf="@+id/textView13"
+            app:layout_constraintStart_toStartOf="@+id/textView13"
+            app:layout_constraintTop_toBottomOf="@+id/textView13"
+            app:srcCompat="@drawable/daniel" />
+
+        <Button
+            android:id="@+id/daniel_ricciardo"
+            android:layout_width="173dp"
+            android:layout_height="65dp"
+            android:text="Ver Informações"
+            android:textSize="17dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView11"
+            app:layout_constraintStart_toStartOf="@+id/imageView11"
+            app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
